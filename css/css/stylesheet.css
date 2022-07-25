@@ -1,0 +1,130 @@
+body{
+    font-family:sans-serif; 
+    font-size: 110%;
+    background-color:#FBFBF2;
+    color: #080708;
+    display:flex;
+    flex-direction:column; 
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    overflow: unset;
+}
+#profilePhoto{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border:3px solid #285943
+}
+
+header{
+    text-align : center;
+    justify-content: center;
+     
+}
+
+#education{
+    background-color:#92AA9B;
+    color: #080708;
+    display: flex;
+    flex-direction: row;
+}
+
+#achievement{
+    background-color:#92AA9B;
+    color: #080708;
+    display: flex;
+    flex-direction: row;
+}
+
+#skills{
+    background-color:#92AA9B;
+    color: #080708;
+    display: flex;
+    flex-direction: row
+}
+
+#experience{
+    background-color:#92AA9B;
+    color: #080708;
+    display: flex;
+    flex-direction: row
+}
+
+#heading{ 
+    background-color: #285943;
+    color: #FBFBF2;
+    font-size: 110%;
+}
+
+footer{
+    text-align: center;
+
+}
+#navMenu{
+    width: 20%;
+    background-color: #A44200;
+    padding: 1rem;
+    color: #FBFBF2;
+}
+
+.navList{
+    list-style-type: none;
+    padding: 0%;
+}
+.details{
+    background-color: #285943;
+    color:#FBFBF2   
+}
+
+.main{
+    list-style-type: disc;
+    padding: 0%;
+}  
+.icons{
+    width: 3rem;
+    margin: 2rem;
+    height: auto;
+}
+.qualifications{
+    padding: 100px;
+}
+ .qualificationList{
+     list-style: circle;
+ }
+
+ /*Add Media queries for your resume*/
+ @media  screen and (max-width: 768px ) {
+     /*This is if the browser is 768px or smaller (for example tablet))*/
+     .qualifications{
+         display:inline-block;
+         width: 45%;
+         height:250px ;
+         background-color: #FBFBF2;
+         margin-left: auto ;
+         margin-right: auto;
+     }
+      
+     .details{
+         width: 45%;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     /*This is if the browser is 600px (EG cellphone)*/
+     .qualifications{
+         display: block;
+         width: 80% ;
+         height: 250px;
+         background-color: #FBFBF2;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .details{
+         width: 80%;
+     }
+ }
+
+ 
